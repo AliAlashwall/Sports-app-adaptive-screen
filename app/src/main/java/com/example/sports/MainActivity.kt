@@ -25,9 +25,6 @@ import androidx.compose.material3.windowsizeclass.calculateWindowSizeClass
 import com.example.sports.ui.SportsApp
 import com.example.sports.ui.theme.SportsTheme
 
-/**
- * Activity for Sports app
- */
 class MainActivity : ComponentActivity() {
     @OptIn(ExperimentalMaterial3WindowSizeClassApi::class)
     override fun onCreate(savedInstanceState: Bundle?) {
